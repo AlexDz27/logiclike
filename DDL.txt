@@ -1,0 +1,6 @@
+create table balances
+(
+    user_id int auto_increment
+        primary key,
+    balance int unsigned null
+);
